@@ -4,70 +4,73 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script src="https://kit.fontawesome.com/6c8f8bdd39.js" crossorigin="anonymous"></script>
-    <script type="module" crossorigin src="/assets/index-bFMdrTRz.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-qYA70m-M.css">
+    <script type="module" crossorigin src="/assets/index-npanGyhN.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Wdsm8GMT.css">
   </head>
   <body class="bg-black" id="app">
-    <div id="progressDiv" class="absolute bg-stone-900 flex" style="pointer-events: none;">
-      <div class="container m-auto w-3/6 flex-col justify-center items-center">
+    <div id="progressDiv" class="absolute justify-center flex bg-stone-900" style="pointer-events: none;">
+      <div class="container mx-5 my-auto w-1/2 flex-col justify-center items-center">
         <p class="text-center text-7xl text-stone-50" id="progressLabel">Loading...</p>
         <progress class="w-full mt-5 h-1" id="progressBar" value="0" max="100"></progress>
       </div>
    </div>
-    <div class="h-full">
-      <canvas id="bg" class="mx-auto fixed"></canvas>
-    </div>
-    <div class="absolute intro w-1/2 absolute right-0" id="description">
-        <div class="h-screen flex">
-          <div class="my-auto justify-center">
-            <p class="text-stone-50 text-6xl font-thin text-center" id="snapDesc">
-              Hi, I am 
-              <span class="bg-yellow-500">Roshan<span>
-            </p>
-            <p class="text-stone-50 text-base text-xl mx-5 my-10 text-center">
+    <canvas id="bg" class="mx-auto fixed"></canvas>
+    <!-- <div class="bg-stone-50 absolute w-full" id="description"> -->
+    <div class="absolute intro bg-stone-900 lg:bg-transparent w-full md:w-full sm:w-full lg:w-1/2 lg:right-0" id="description">
+        <div class="h-screen flex justify-center">
+          <div class="my-auto">
+            <div class="lg:flex justify-center">
+              <div class="text-stone-50 text-6xl font-thin text-center">
+                Hi, I am
+              </div>
+              <div class="text-stone-50 text-6xl my-2 lg:my-0 font-thin text-center">
+                <span class="bg-yellow-500 mx-5">Roshan<span>
+              </div>
+            </div>
+           <div class="text-stone-50 text-base text-xl font-thin mx-5 my-10 text-center">
               I am a CS major and an aspiring software engineer, Truman State University 27'.
-            </p>
+           </div>
           </div>
         </div>
-        <div class="h-screen flex justify-center">
+        <div class="h-screen w-full flex justify-center">
           <div class="my-auto justify-center">
-            <p class="text-stone-50 text-xl text-center mx-5 mt-5">
+            <div class="text-stone-50 text-xl text-center mx-5 mt-5">
               <div class="mx-auto text-stone-50 text-3xl my-10 text-center">
                 <span class="bg-yellow-500 text-3xl mb-3">
                   Intrests
                 </span>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center">
-                I am interested in Software Development, Micro Controllers, Web Design,  Game Development, Computer Vision, & building stuff  
+              <div class="text-stone-50 mx-auto font-thin text-md lg:text-xl text-center">
+                I am interested in Software Development, Micro Controllers, Web Design,  Game Development, Computer Vision, & building stuff in general  
               </div>
               <div class="flex justify-center my-5">
-                <span class="text-yellow-500 mx-5 text-7xl">
+                <span class="text-yellow-500 mx-5 text-xl lg:text-7xl">
                   <i class="fa-solid fa-microchip"></i>
                 </span>
-                <span class="text-yellow-500 mx-5 text-7xl">
+                <span class="text-yellow-500 mx-5 text-xl lg:text-7xl">
                   <i class="fa-solid fa-globe"></i>
                 </span>
-                <span class="text-yellow-500 mx-5 text-7xl">
+                <span class="text-yellow-500 mx-5 text-xl lg:text-7xl">
                   <i class="fa-solid fa-gamepad"></i>
                 </span>
-                <span class="text-yellow-500 mx-5 text-7xl">
+                <span class="text-yellow-500 mx-5 text-xl lg:text-7xl">
                   <i class="fa-solid fa-robot"></i>
                 </span>
              </div>
-            </p>
+            </div>
           </div>
       </div>
-      <div class="h-auto flex justify-center">
+      <div class="flex justify-center">
           <div class="my-auto justify-center">
-            <p class="text-stone-50 text-xl text-center mx-5 mt-5">
-              <div class="mx-auto text-stone-50 text-3xl text-center px-40 my-10">
+            <div class="text-stone-50 text-xl text-center mt-5">
+              <div class="mx-auto text-stone-50 text-3xl text-center mx-40 my-10">
                 <span class="bg-yellow-500 text-3xl">
                   Projects
                 </span>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center px-40">
+              <div class="text-stone-50 mx-auto text-xl text-center px-10 lg:px-40">
                 <div class="text-sm font-thin mt-4">
                   <div class="font-thin text-sm" id="stacks_project">
                     <a href="https://github.com/rosnMagar/stacks_call_number" target="_blank" rel="noopener noreferrer" >
@@ -83,7 +86,7 @@
                   </div>
                </div>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center px-40">
+              <div class="text-stone-50 text-xl mx-auto text-center px-10 lg:px-40">
                 <div class="gap">.</div>
                 <div class="gap">.</div>
                 <div class="gap mb-5">.</div>
@@ -99,7 +102,7 @@
                   </div>
                </div>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center px-40">
+              <div class="text-stone-50 mx-auto text-xl text-center px-10 lg:px-40">
                 <div class="gap">.</div>
                 <div class="gap">.</div>
                 <div class="gap mb-5">.</div>
@@ -118,7 +121,7 @@
                   </div>
                </div>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center px-40">
+              <div class="text-stone-50 mx-auto text-xl text-center px-10 lg:px-40">
                 <div class="gap">.</div>
                 <div class="gap">.</div>
                 <div class="gap mb-5">.</div>
@@ -154,7 +157,7 @@
                   </div>
                </div>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center px-40">
+              <div class="text-stone-50 mx-auto text-xl text-center px-10 lg:px-40">
                 <div class="gap">.</div>
                 <div class="gap">.</div>
                 <div class="gap mb-5">.</div>
@@ -179,7 +182,7 @@
                   </div>
                </div>
               </div>
-              <div class="text-stone-50 mx-auto text-xl text-center px-40">
+              <div class="text-stone-50 mx-auto text-xl text-center px-10 lg:px-40">
                 <div class="gap">.</div>
                 <div class="gap">.</div>
                 <div class="gap mb-5">.</div>
@@ -199,7 +202,7 @@
                     </div>
                 </div>
                 </div>  
-              </p>
+              </div>
             </div>
       </div>
       <div class="h-screen flex justify-center">
